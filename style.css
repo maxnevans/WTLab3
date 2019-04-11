@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 103, 197);
+    color: white;
+}
+
+* {
+    font-family: Tahoma, sans-serif;
+    user-select: none;
+}
+
+.main-form {
+    padding: 100px;
+    text-align: center;
+}
+
+.answer {
+    border: 5px dashed white;
+    padding: 100px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.answer.error {
+    border-color: orange;
+}
+
+.input-error {
+    outline: 3px solid red;
+}
+
+.token {
+    opacity: .4;
+}
